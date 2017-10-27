@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC51ABDD1FA2E525008E2538 /* emojiPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC51ABDC1FA2E525008E2538 /* emojiPlist.plist */; };
+		FC51ABE01FA30A5D008E2538 /* ItemOtherAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FC51ABDF1FA30A5D008E2538 /* ItemOtherAdd.m */; };
+		FC51ABE31FA30A83008E2538 /* ItemOtherAdd.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC51ABE21FA30A83008E2538 /* ItemOtherAdd.xib */; };
 		FC97CCDF1FA1CC8D00E43132 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CCDE1FA1CC8D00E43132 /* AppDelegate.m */; };
 		FC97CCE21FA1CC8D00E43132 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CCE11FA1CC8D00E43132 /* ViewController.m */; };
 		FC97CCE51FA1CC8D00E43132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC97CCE31FA1CC8D00E43132 /* Main.storyboard */; };
@@ -16,6 +19,8 @@
 		FC97CCF01FA1CC8D00E43132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CCEF1FA1CC8D00E43132 /* main.m */; };
 		FC97CCFA1FA1CC8D00E43132 /* QQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CCF91FA1CC8D00E43132 /* QQTests.m */; };
 		FC97CD051FA1CC8D00E43132 /* QQUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC97CD041FA1CC8D00E43132 /* QQUITests.m */; };
+		FC97CD131FA1CDD600E43132 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC97CD121FA1CDD600E43132 /* messages.plist */; };
+		FC97CD1B1FA1CEFF00E43132 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC97CD1A1FA1CEFF00E43132 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC51ABDC1FA2E525008E2538 /* emojiPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = emojiPlist.plist; path = ../../../../../Documents/emojiPlist.plist; sourceTree = "<group>"; };
+		FC51ABDE1FA30A5D008E2538 /* ItemOtherAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemOtherAdd.h; sourceTree = "<group>"; };
+		FC51ABDF1FA30A5D008E2538 /* ItemOtherAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemOtherAdd.m; sourceTree = "<group>"; };
+		FC51ABE21FA30A83008E2538 /* ItemOtherAdd.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemOtherAdd.xib; sourceTree = "<group>"; };
 		FC97CCDA1FA1CC8D00E43132 /* QQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC97CCDD1FA1CC8D00E43132 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC97CCDE1FA1CC8D00E43132 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +62,8 @@
 		FC97CD001FA1CC8D00E43132 /* QQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC97CD041FA1CC8D00E43132 /* QQUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQUITests.m; sourceTree = "<group>"; };
 		FC97CD061FA1CC8D00E43132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC97CD121FA1CDD600E43132 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = messages.plist; path = "../../../../../../../IOS学习视频/0402/素材/QQ聊天/messages.plist"; sourceTree = "<group>"; };
+		FC97CD1A1FA1CEFF00E43132 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "../../../../../../../IOS学习视频/0402/素材/QQ聊天/AppIcon/Icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC51ABE11FA30A64008E2538 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FC51ABDE1FA30A5D008E2538 /* ItemOtherAdd.h */,
+				FC51ABDF1FA30A5D008E2538 /* ItemOtherAdd.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		FC97CCD11FA1CC8D00E43132 = {
 			isa = PBXGroup;
 			children = (
@@ -103,16 +123,19 @@
 		FC97CCDC1FA1CC8D00E43132 /* QQ */ = {
 			isa = PBXGroup;
 			children = (
-				FC97CCDD1FA1CC8D00E43132 /* AppDelegate.h */,
-				FC97CCDE1FA1CC8D00E43132 /* AppDelegate.m */,
-				FC97CCE01FA1CC8D00E43132 /* ViewController.h */,
-				FC97CCE11FA1CC8D00E43132 /* ViewController.m */,
-				FC97CCE31FA1CC8D00E43132 /* Main.storyboard */,
+				FC51ABDC1FA2E525008E2538 /* emojiPlist.plist */,
 				FC97CCE91FA1CC8D00E43132 /* Assets.xcassets */,
+				FC97CD1A1FA1CEFF00E43132 /* Icon.png */,
+				FC51ABE11FA30A64008E2538 /* view */,
+				FC97CD1E1FA1D2E800E43132 /* controller */,
+				FC97CD1D1FA1D2D200E43132 /* other */,
+				FC97CD121FA1CDD600E43132 /* messages.plist */,
+				FC97CCE31FA1CC8D00E43132 /* Main.storyboard */,
 				FC97CCEB1FA1CC8D00E43132 /* LaunchScreen.storyboard */,
 				FC97CCEE1FA1CC8D00E43132 /* Info.plist */,
 				FC97CCEF1FA1CC8D00E43132 /* main.m */,
 				FC97CCE61FA1CC8D00E43132 /* QQ.xcdatamodeld */,
+				FC51ABE21FA30A83008E2538 /* ItemOtherAdd.xib */,
 			);
 			path = QQ;
 			sourceTree = "<group>";
@@ -133,6 +156,24 @@
 				FC97CD061FA1CC8D00E43132 /* Info.plist */,
 			);
 			path = QQUITests;
+			sourceTree = "<group>";
+		};
+		FC97CD1D1FA1D2D200E43132 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				FC97CCDD1FA1CC8D00E43132 /* AppDelegate.h */,
+				FC97CCDE1FA1CC8D00E43132 /* AppDelegate.m */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		FC97CD1E1FA1D2E800E43132 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC97CCE01FA1CC8D00E43132 /* ViewController.h */,
+				FC97CCE11FA1CC8D00E43132 /* ViewController.m */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +282,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC51ABDD1FA2E525008E2538 /* emojiPlist.plist in Resources */,
+				FC97CD131FA1CDD600E43132 /* messages.plist in Resources */,
+				FC51ABE31FA30A83008E2538 /* ItemOtherAdd.xib in Resources */,
 				FC97CCED1FA1CC8D00E43132 /* LaunchScreen.storyboard in Resources */,
+				FC97CD1B1FA1CEFF00E43132 /* Icon.png in Resources */,
 				FC97CCEA1FA1CC8D00E43132 /* Assets.xcassets in Resources */,
 				FC97CCE51FA1CC8D00E43132 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC97CCE21FA1CC8D00E43132 /* ViewController.m in Sources */,
+				FC51ABE01FA30A5D008E2538 /* ItemOtherAdd.m in Sources */,
 				FC97CCDF1FA1CC8D00E43132 /* AppDelegate.m in Sources */,
 				FC97CCF01FA1CC8D00E43132 /* main.m in Sources */,
 				FC97CCE81FA1CC8D00E43132 /* QQ.xcdatamodeld in Sources */,
